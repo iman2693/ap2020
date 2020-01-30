@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 
 <head>
 
@@ -15,7 +15,49 @@
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
+	<style>
+		@font-face {
+			font-family: IranYekan;
+			font-style: normal;
+			font-weight: bold;
+			src: url('fonts/IranYekan/eot/iranyekanwebbold(fanum).eot');
+			src: url('fonts/IranYekan/eot/iranyekanwebbold(fanum).eot?#iefix') format('embedded-opentype'),
+				/* IE6-8 */
+				url('fonts/IranYekan/woff2/iranyekanwebbold(fanum).woff2') format('woff2'),
+				/* FF39+,Chrome36+, Opera24+*/
+				url('fonts/IranYekan/woff/iranyekanwebbold(fanum).woff') format('woff'),
+				/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+				url('fonts/IranYekan/ttf/iranyekanwebbold(fanum).ttf') format('truetype');
+		}
 
+		@font-face {
+			font-family: IranYekan;
+			font-style: normal;
+			font-weight: 300;
+			src: url('fonts/IranYekan/eot/iranyekanweblight(fanum).eot');
+			src: url('fonts/IranYekan/eot/iranyekanweblight(fanum).eot?#iefix') format('embedded-opentype'),
+				/* IE6-8 */
+				url('fonts/IranYekan/woff2/iranyekanweblight(fanum).woff2') format('woff2'),
+				/* FF39+,Chrome36+, Opera24+*/
+				url('fonts/IranYekan/woff/iranyekanweblight(fanum).woff') format('woff'),
+				/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+				url('fonts/IranYekan/ttf/iranyekanweblight(fanum).ttf') format('truetype');
+		}
+
+		@font-face {
+			font-family: IranYekan;
+			font-style: normal;
+			font-weight: normal;
+			src: url('fonts/IranYekan/eot/iranyekanwebregular(fanum).eot');
+			src: url('fonts/IranYekan/eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),
+				/* IE6-8 */
+				url('fonts/IranYekan/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),
+				/* FF39+,Chrome36+, Opera24+*/
+				url('fonts/IranYekan/woff/iranyekanwebregular(fanum).woff') format('woff'),
+				/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+				url('fonts/IranYekan/ttf/iranyekanwebregular(fanum).ttf') format('truetype');
+		}
+	</style>
 </head>
 
 <body id="page-top" dir="rtl" style="text-align:right">
@@ -37,6 +79,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">اطلاعات بیشتر</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#faq">سوالات متداول</a>
           </li>
         </ul>
       </div>
@@ -152,18 +197,128 @@
 				<p class="leadp">پروژه های پایانی</p></a>
 				
 				<a href="Assignments.html"><p class="leadp">تمرین ها</p></a>
-				<a href="syllabus.html"><p class="leadp">رئوس مطالب</p>
+				<a href="syllabus.html"><p class="leadp">رئوس مطالب</p></a>
 			</div>
 		  </div>
         </div>
       </div>
     </div>
   </section>
+  
+  <section id="faq" class="bg-light">
+    <div class="container py-3">
+		<div class="row">
+			<div class="col-10 mx-auto">
+			 <h2>سوالات متداول</h2><br><br>
+				<div class="accordion" id="faqPart">
+					<div class="card">
+						<div class="card-header p-2" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								  سوال 1 : آیا می توانم به عنوان مستمع آزاد در کلاس حضور داشته باشم؟
+								</button>
+							  </h5>
+						</div>
+
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqPart">
+							<div class="card-body">
+								<b>پاسخ :</b> بله، در صورتی که فضای کلاس اجازه دهد، از حضور مستمعین آزاد استقبال می شود.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header p-2" id="headingTwo">
+							<h5 class="mb-0">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							  سوال 2 : آیا تمرینات به شکل گروهی قابل انجام هستند؟
+							</button>
+						  </h5>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqPart">
+							<div class="card-body">
+								<b>پاسخ :</b>  تمامی تمرینات باید به صورت انفرادی انجام شوند.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header p-2" id="headingThree">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								  سوال 3 : آیا پروژه های پایانی به شکل گروهی قابل انجام هستند؟
+								</button>
+							  </h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqPart">
+							<div class="card-body">
+								<b>پاسخ :</b> بله، پروژه های پایانی در قالب گروههای حداکثر 3 نفری قابل انجام هستند. اطلاعات تکمیلی در صفحه <a href="projects.html">پروژه های پایانی </a>قابل دسترس هستند.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header p-2" id="headingThree">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+								  سوال 4 : آیا می توانم برای ایمیل دانشگاهی استاد درس، پیام ارسال کنم؟
+								</button>
+							  </h5>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqPart">
+							<div class="card-body">
+								<b>پاسخ :</b> خیر، به دلیل دریافت ایمیل های فراوان، پاسخ به سوالات درسی از طریق ایمیل دانشگاهی امکان پذیر نخواهد بود.
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<table class="table table-sm ">
+				  <thead>
+					<tr>
+					  <th scope="col">شماره جلسه</th>
+					   <th scope="col">تاریخ</th>
+					  <th scope="col">موضوع درس</th>
+					  <th scope="col">دانلود محتویات</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <th scope="row">جلسه اول</th>
+					  <th>شنبه 12 بهمن</th>
+					  <td>مقدمه ای بر کامپیوتر، مقدمه ای بر پایتون</td>
+					  <td><a href="#">دانلود فایل جلسه اول</a></td>
+					</tr>
+					<tr class="table-success">
+					  <th scope="row">جلسه دوم</th>
+					   <th>شنبه 19 بهمن</th>
+					  <td>مقدمه ی پایتون</td>
+					  <td><a href="#">دانلود فایل جلسه دوم</a></td>
+					</tr>
+					<tr class="table-danger">
+					  <th scope="row">جلسه سوم</th>
+					   <th>شنبه 26 بهمن</th>
+					  <td>توابع</td>
+					  <td><a href="#">دانلود فایل جلسه سوم</a></td>
+					</tr>
+					<tr class="table-info">
+					  <th scope="row">جلسه چهارم</th>
+					   <th>شنبه 26 بهمن</th>
+					  <td>شی ء گرایی</td>
+					  <td><a href="#">دانلود فایل جلسه چهارم</a></td>
+					</tr>
+				  </tbody>
+				</table>
+
+			</div>
+		</div>
+		<!--/row-->
+	</div>
+	<!--container-->
+  </section>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">برنامه سازی پیشرفته ترم 982</p>
+
     </div>
     <!-- /.container -->
   </footer>
