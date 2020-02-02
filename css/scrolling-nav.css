@@ -1,7 +1,5 @@
 /*!
- * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ Author : Iman Kianian
  */
 
 
@@ -61,6 +59,9 @@ p{
 }
 a:hover{
 	text-decoration:none;
+}
+.alert li {
+	list-style: persian;
 }
 .btn-link.focus, .btn-link:hover{
 	text-decoration:none !important;
